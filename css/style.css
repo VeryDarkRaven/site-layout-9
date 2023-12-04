@@ -207,6 +207,11 @@ body {
   font-family: var(--roboto);
   font-weight: 400;
   font-size: inherit;
+  overflow-x: hidden;
+}
+
+.header-indentation {
+  background-color: var(--black);
 }
 
 .section {
@@ -289,6 +294,16 @@ h2 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.absolute-contain-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .button {

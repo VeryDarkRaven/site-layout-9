@@ -102,6 +102,7 @@ h6 {
   --grey-button: #121212;
   --grey-button-hover: #222222;
   --grey-button-active: #141414;
+  --questions-background: #f1f1f1;
   --roboto: "Roboto", sans-serif;
   --poppins: "Poppins", sans-serif;
   --merriweather: "Merriweather", serif;
@@ -395,6 +396,16 @@ h2 {
 
 .subheading {
   text-transform: uppercase;
+}
+
+.title-container .subtitle {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin: 0 0 7px;
+}
+
+.title-container .title {
+  font-size: 1.5rem;
 }
 
 /* header style */

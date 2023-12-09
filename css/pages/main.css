@@ -4,7 +4,7 @@
 
 .front,
 .choice {
-  min-height: 100vh;
+  min-height: 92.5vh;
   color: var(--white);
   position: relative;
   margin: 0 0 70px 0;
@@ -169,7 +169,8 @@
   padding: 70px 0;
 }
 
-.choice__characteristics {
+.choice__characteristics,
+.advantages__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,7 +181,8 @@
   margin: 40px 0 0;
 }
 
-.choice__characteristics .item {
+.choice__characteristics .item,
+.advantages__content .item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,32 +199,38 @@
           flex: 0 1 50%;
 }
 
-.choice__characteristics .item__image {
+.choice__characteristics .item__image,
+.advantages__content .item__image {
   width: 25px;
   height: 25px;
 }
 
-.choice__characteristics .item img {
+.choice__characteristics .item img,
+.advantages__content .item img {
   width: 100%;
   height: 100%;
 }
 
-.choice__characteristics .item svg {
+.choice__characteristics .item svg,
+.advantages__content .item svg {
   width: 100%;
   height: 100%;
 }
 
-.choice__characteristics .item svg use {
+.choice__characteristics .item svg use,
+.advantages__content .item svg use {
   width: inherit;
   height: inherit;
 }
 
-.choice__characteristics .item__title p {
+.choice__characteristics .item__title p,
+.advantages__content .item__title p {
   font-size: 0.9rem;
   color: var(--white);
 }
 
-.choice__characteristics .item__text p {
+.choice__characteristics .item__text p,
+.advantages__content .item__text p {
   font-size: 0.7rem;
 }
 

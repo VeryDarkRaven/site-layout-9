@@ -1,0 +1,327 @@
+/* insurance style */
+
+/* insurance style */
+
+.insurance {
+  background-color: var(--grey-button);
+  color: var(--white);
+}
+
+.insurance .container {
+  padding: 0 0 50px;
+}
+
+.insurance__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.insurance__content .item {
+  background-color: var(--black);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 20px 30px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 15px;
+}
+
+.insurance__content .item .item__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+}
+
+.insurance__content .item .name {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.insurance__content .item .price-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.insurance__content .item .payment {
+  font-size: 0.5rem;
+  color: var(--grey-text);
+}
+
+.insurance__content .item .item__body li {
+  position: relative;
+  font-size: 0.6rem;
+  margin: 0 0 5px;
+  padding: 0 0 0 15px;
+}
+
+.insurance__content .item .item__body li::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: url("../../img/icons/icons.svg#insurance--1");
+}
+
+.insurance__content .item .item__button {
+  margin: 10px 0 0;
+}
+
+.insurance__content .item .button {
+  font-size: 14px;
+}
+
+.insurance__content .item_silver .name {
+  color: var(--grey-text);
+}
+
+.insurance__content .item_gold .name {
+  color: var(--yellow-button);
+}
+
+/* end insurance style */
+
+/* choice style */
+
+.choice__decor .dark-background {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.choice__text-block {
+  padding: 70px 0;
+}
+
+.choice__characteristics,
+.advantages__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 15px;
+  margin: 40px 0 0;
+}
+
+.choice__characteristics .item,
+.advantages__content .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 5px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.choice__characteristics .item__image,
+.advantages__content .item__image {
+  width: 25px;
+  height: 25px;
+}
+
+.choice__characteristics .item img,
+.advantages__content .item img {
+  width: 100%;
+  height: 100%;
+}
+
+.choice__characteristics .item svg,
+.advantages__content .item svg {
+  width: 100%;
+  height: 100%;
+}
+
+.choice__characteristics .item svg use,
+.advantages__content .item svg use {
+  width: inherit;
+  height: inherit;
+}
+
+.choice__characteristics .item__title p,
+.advantages__content .item__title p {
+  font-size: 0.9rem;
+  color: var(--white);
+}
+
+.choice__characteristics .item__text p,
+.advantages__content .item__text p {
+  font-size: 0.7rem;
+}
+
+/* end choice style */
+
+/* insurance insurance style */
+
+.insurance__title-container {
+  background-color: var(--grey-button);
+  padding: 40px 0;
+}
+
+.insurance__title-container .subtitle {
+  text-transform: uppercase;
+  color: var(--grey-text);
+  font-size: 0.8rem;
+}
+
+.insurance__title-container .title {
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+/* end insurance insurance style */
+
+/* insurance advantages style */
+
+.advantages {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 40px 0;
+}
+
+.advantages__content {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantages__content .item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  min-width: clamp(120px, 33.3%, 230px);
+}
+
+.advantages__content .item__text {
+  color: var(--grey-text);
+}
+
+/* end insurance advantages style */
+
+/* insurance questions style */
+
+.questions {
+  padding: 40px 0;
+}
+
+.questions__title-container {
+  margin: 0 0 40px;
+}
+
+.questions__content .item {
+  padding: 10px 20px;
+}
+
+.questions__content .item:nth-child(2n-1) {
+  background-color: var(--questions-background);
+}
+
+.questions__content .item__title {
+  background-color: transparent;
+  font-size: 0.8rem;
+  font-weight: 700;
+  position: relative;
+  text-align: left;
+}
+
+.questions__content .item__title::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 9px;
+  height: 5px;
+  background-color: var(--yellow-button);
+  -webkit-transition: rotate 0.5s ease 0s;
+  transition: rotate 0.5s ease 0s;
+}
+
+.questions__content .item__title._spoller-active::before {
+  rotate: 90deg;
+}
+
+.questions__content .item__text {
+  font-size: 0.7rem;
+  line-height: 1.2;
+  margin: 10px 0 0;
+}
+
+.questions__content .item__title,
+.questions__content .item__text {
+  padding: 0 0 0 18px;
+}
+
+/* end insurance questions style */
+
+/* end insurance style */
+
+@media (max-width: 930px) {
+  .choice .two-column-wrapper {
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
+    -ms-grid-rows: auto minmax(200px, auto);
+    grid-template-rows: auto minmax(200px, auto);
+  }
+
+  .choice__image-block img {
+    -o-object-position: center;
+       object-position: center;
+  }
+
+  .choice__text-block {
+    padding: 70px 0 0;
+  }
+}
+
+@media (max-width: 530px) {
+  .insurance__content .item .item__body li {
+    font-size: 0.8rem;
+  }
+}

@@ -227,20 +227,22 @@
 .advantages__content {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 7px;
 }
 
 .advantages__content .item {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1;
-          flex: 1 1;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
   min-width: clamp(120px, 33.3%, 230px);
 }
 
 .advantages__content .item__text {
   color: var(--grey-text);
+  line-height: 1.2;
 }
 
 /* end insurance advantages style */
@@ -274,7 +276,7 @@
 .questions__content .item__title::before {
   content: "";
   position: absolute;
-  top: 4px;
+  top: 7px;
   left: 0;
   width: 9px;
   height: 5px;

@@ -103,6 +103,7 @@ h6 {
   --grey-button-hover: #222222;
   --grey-button-active: #141414;
   --questions-background: #f1f1f1;
+  --contact-background: #F7F7F7;
   --roboto: "Roboto", sans-serif;
   --poppins: "Poppins", sans-serif;
   --merriweather: "Merriweather", serif;
@@ -209,6 +210,29 @@ body {
   font-weight: 400;
   font-size: inherit;
   overflow-x: hidden;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+.wrapper main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.wrapper footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
 }
 
 .header-indentation {
@@ -556,6 +580,7 @@ h2 {
 .footer {
   background-color: var(--black);
   color: var(--white);
+  z-index: 5;
 }
 
 .footer *[hidden] {

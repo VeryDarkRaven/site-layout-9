@@ -276,7 +276,7 @@
 .questions__content .item__title::before {
   content: "";
   position: absolute;
-  top: 7px;
+  top: 0.3rem;
   left: 0;
   width: 9px;
   height: 5px;

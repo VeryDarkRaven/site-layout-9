@@ -493,7 +493,7 @@ h2 {
 .header__nav li::before {
   content: "";
   position: absolute;
-  bottom: -5px;
+  bottom: -7px;
   left: -5px;
   width: 0%;
   height: 2px;
@@ -510,12 +510,12 @@ h2 {
 
 .header__nav li:active::before,
 .header__nav li._active:active::before {
-  width: 115%;
+  left: 10%;
 }
 
 .header__nav li._active::before {
   left: 0;
-  width: 110%;
+  width: 85%;
 }
 
 .logo {

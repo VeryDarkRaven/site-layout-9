@@ -738,3 +738,9 @@ h2 {
     margin: 0;
   }
 }
+
+@media (max-width: 380px) {
+  .button {
+    font-size: 11px;
+  }
+}
